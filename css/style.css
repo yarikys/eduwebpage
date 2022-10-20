@@ -1,0 +1,195 @@
+/* Reset */
+ul{
+	margin: 0;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Body */
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Roboto, Verdana, Arial, Helvetica, sans-serif;
+	color: #212121;
+}
+
+ /* Header */
+.logo{
+	font-family:Raleway, Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 30.52px;
+}
+
+.logo span{
+	color: #2196F3;
+}
+
+.navigation a{
+	color: #212121;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16.41px;
+}
+
+.navigation a:hover{
+	color: #2196F3;
+}
+
+.header-contacts a{
+	color: #757575;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16.41px;
+}
+
+.header-contacts a:hover{
+	color: #2196F3;
+}
+
+.contacts a:hover{
+	color: #2196F3;
+}
+
+ /* Banner */
+.banner{
+	color: #fff;
+	background-color: #2F303A;
+	font-weight: 900;
+	font-size: 44px;
+	padding: 200px 0;
+}
+
+.title{
+	text-align: center;
+	display: block;
+	width: 696px;
+	margin: 0 auto;
+}
+
+.title-button{
+	font-family: Roboto;
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+	background-color: #2196F3;
+	padding: 10px 32px;
+	border: 0;
+	border-radius: 4px;
+	display: block;
+	margin: 20px auto;
+	cursor: pointer
+}
+
+.team-section{
+	background-color: #F5F4FA;
+}
+/* benefits */
+.benefits h2{
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 16px;
+}
+
+.benefits p{
+	color: #757575;
+	font-size: 14px;
+	line-height: 24px;
+	width: 270px;
+}
+
+.occupation-title{
+	font-size: 36px;
+	text-align: center;
+}
+
+ /*team-section*/
+.team-section{
+	padding: 94px 0;
+}
+
+.team-section h2{
+	text-align: center;
+	font-size: 36px;
+	line-height: 42.19px;
+}
+
+.team-section h3{
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18.75px;
+}
+
+.team-section p{
+	color: #757575;
+	font-size: 16px;
+	line-height: 18.75px;
+}
+
+ /* Footer */
+.footer{
+	background-color: #2F303A;
+}
+
+.footer .logo{
+	color: #fff;
+}
+
+.contacts .location{
+	color: #fff;
+	font-weight: 400;
+}
+
+.contacts a{
+	color: #757575;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+/* Portfolio */
+.filter{
+	margin: 20px;
+}
+
+
+.filter input{
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	background-color:#F5F4FA;
+	padding: 6px 22px;
+	border: 0;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.filter input:hover{
+	font-family: Roboto;
+	color: #fff;
+	background-color: #2196F3;
+}
+
+.projects h5{
+	font-size: 18px;
+	line-height: 36px;
+}
+
+.projects p{
+	color: #757575;
+	font-size: 16px;
+	line-height: 30px;
+}
